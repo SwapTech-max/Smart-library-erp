@@ -1,17 +1,125 @@
-# React + Vite
+# 📚 Smart Library ERP System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern full-stack Smart Library ERP System built for colleges and institutions to digitally manage books, attendance, transactions, fines, and user roles in real-time.
 
-Currently, two official plugins are available:
+🚀 Built for Hackathons | Real-Time Dashboard | Multi-Role Access | Live Library Management
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+# 🌟 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🔐 Authentication & Authorization
+- Secure Login & Registration
+- Role-based Access Control
+- Admin / Librarian / Student Dashboards
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Smart-library-erp
+## 👨‍💼 Admin Features
+- Manage Librarians
+- Monitor System Activity
+- Manage Books & Transactions
+- View Real-Time Statistics
+
+---
+
+## 📖 Librarian Features
+- Add / Edit / Delete Books
+- Issue & Return Books
+- Manage Attendance
+- Track Transactions
+- View Live Book Availability
+
+---
+
+## 🎓 Student Features
+- Browse Available Books
+- View Issued Books
+- Check Fine Status
+- Live Attendance Dashboard
+- Real-Time Activity Feed
+
+---
+
+# ⚡ Real-Time Functionalities
+- Live Attendance Updates
+- Instant Book Availability Changes
+- Dynamic Transaction Feed
+- Real-Time Dashboard Statistics
+
+---
+
+# 🛠️ Tech Stack
+
+## Frontend
+- React.js
+- Vite
+- Tailwind CSS
+- Context API
+
+## Backend & Database
+- Supabase
+- PostgreSQL
+- Supabase Realtime
+
+## Deployment
+- Vercel
+
+---
+
+# 📂 Project Structure
+
+```bash
+smart-library-erp/
+│
+├── public/
+├── src/
+│   ├── components/
+│   ├── context/
+│   ├── hooks/
+│   ├── pages/
+│   ├── services/
+│   └── App.jsx
+│
+├── supabase_schema.sql
+├── vite.config.js
+├── package.json
+└── README.md
+```
+
+---
+
+# 🚀 Deployment
+
+Deployed using:
+
+- Vercel
+- Supabase
+
+---
+
+
+# 🔥 Future Enhancements
+
+- QR-based Book Issue
+- AI Recommendation System
+- Face Recognition Attendance
+- Analytics Dashboard
+- Fine Payment Gateway
+- Mobile Application
+
+---
+
+# 👨‍💻 Developed By
+
+## Swapnil Pradhan
+B.Tech CSE Student | Full Stack Developer | Flutter & React Enthusiast
+
+GitHub:
+https://github.com/SwapTech-max
+
+---
+
+# 📄 License
+
+This project is developed for educational and hackathon purposes.
